@@ -17,3 +17,39 @@
 // }
 
 // checkWinner(avgKoalas, avgDolphins);
+
+// const calcTip = (bill) => {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
+
+// const bills = [125, 555, 44];
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// console.log(bills);
+// console.log(tips);
+
+// const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+// console.log(totals);
+
+// const markMiller = {
+//   fullName: `Mark Miller`,
+//   weight: 78,
+//   height: 1.69,
+//   calcBMI: function () {
+//     this.bmi = this.weight / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
+// const johnSmith = {
+//   fullName: `John Smith`,
+//   weight: 92,
+//   height: 1.95,
+//   calcBMI: function () {
+//     this.bmi = this.weight / (this.height * this.height);
+//     return this.bmi;
+//   },
+// };
+
+// markMiller.calcBMI();
+// console.log(markMiller.bmi);
+// johnSmith.calcBMI();
+// console.log(johnSmith.bmi);

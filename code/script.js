@@ -53,3 +53,73 @@
 // console.log(friends.includes(`Steven`));
 
 // if (friends.includes(`Steven`)) console.log(`You have a friend called Steven`);
+
+// const blatsos = {
+//   firstName: `Kostas`,
+//   lastName: `Blatsos`,
+//   birthYear: 2000,
+//   hasDriversLicense: true,
+//   job: `Developer`,
+//   hobbies: [`Sports`, `Go-Kart`],
+//   calcAge: function () {
+//     this.age = 2037 - this.birthYear;
+//     return this.age;
+//   },
+//   getSummary: function () {
+//     return `${this.firstName} is a ${this.calcAge()}-year old ${
+//       this.job
+//     }, and ${
+//       this.hasDriversLicense
+//         ? `he has a driver's license.`
+//         : `does not have a driver's license.`
+//     }`;
+//   },
+// };
+
+// console.log(blatsos[`age`]);
+
+// const nameKey = `Name`;
+// console.log(blatsos[`first${nameKey}`]);
+// console.log(blatsos[`last${nameKey}`]);
+
+// const userTyped = prompt(`What do you want to know about Blatsos?`);
+// console.log(blatsos[userTyped]);
+
+// blatsos.location = `Greece`;
+// console.log(blatsos);
+
+// console.log(
+//   `${blatsos.firstName} has ${blatsos.hobbies.length} hobbies, and his favorite is ${blatsos.hobbies[1]}`
+// );
+
+// console.log(blatsos.getSummary());
+
+// for (let rep = 1; rep < 10; rep++) {
+//   console.log(`printed ${rep}`);
+// }
+
+// const blatsos = [
+//   `Kostas`,
+//   `Blatsos`,
+//   2022 - 2000,
+//   [`Stam`, `Stauros`, `Aggelos`],
+// ];
+
+// const types = [];
+
+// for (let i = 0; i <= blatsos.length - 1; i++) {
+//   if (typeof blatsos[i] === "number") break;
+
+//   types.push(typeof blatsos[i]);
+// }
+
+// console.log(types);
+
+// const years = [2020, 1991, 1985];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   ages.push(2037 - years[i]);
+// }
+
+// console.log(ages);
