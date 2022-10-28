@@ -98,12 +98,12 @@
 //   console.log(`printed ${rep}`);
 // }
 
-// const blatsos = [
-//   `Kostas`,
-//   `Blatsos`,
-//   2022 - 2000,
-//   [`Stam`, `Stauros`, `Aggelos`],
-// ];
+const blatsos = [
+  `Kostas`,
+  `Blatsos`,
+  2022 - 2000,
+  [`Stam`, `Stauros`, `Aggelos`],
+];
 
 // const types = [];
 
@@ -123,3 +123,32 @@
 // }
 
 // console.log(ages);
+
+// for (let i = blatsos.length - 1; i >= 0; i--) {
+//   console.log(i, blatsos[i]);
+// }
+
+// for (let exercise = 1; exercise <= 3; exercise++) {
+//   console.log(`------------ Starting exercise ${exercise}`);
+//   for (let rep = 1; rep < 6; rep++) {
+//     console.log(`Exercise ${exercise}: Lifting weights repetition ${rep} `);
+//   }
+// }
+
+// for (let i = blatsos.length - 1; i >= 0; i--) {
+//   console.log(i, blatsos[i]);
+// }
+
+// let rep = 1;
+// while (rep <= 10) {
+//   console.log(rep);
+//   rep++;
+// }
+
+// let dice = Math.trunc(Math.random() * 6) + 1;
+// // console.log(dice);
+
+// while (dice !== 6) {
+//   console.log(dice);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+// }

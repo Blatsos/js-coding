@@ -22,7 +22,29 @@
 //   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 // };
 
-// const bills = [125, 555, 44];
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+
+// for (let i = 0; i < bills.length; i++) {
+//   tips.push(calcTip(bills[i]));
+//   totals.push(tips[i] + bills[i]);
+// }
+
+// console.log(tips);
+// console.log(totals);
+
+// const calcAverage = (arr) => {
+//   let average = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     average += arr[i];
+//   }
+//   average = average / arr.length;
+//   console.log(average);
+// };
+
+// calcAverage(tips);
+
 // const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 // console.log(bills);
 // console.log(tips);

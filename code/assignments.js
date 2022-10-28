@@ -69,3 +69,26 @@ const populations = [2000000, 35000000, 88000000, 11000000];
 // }
 
 // console.log(percentage2);
+
+// const listOfNeighbours = [
+//   ["Canada", "Mexico"],
+//   ["Spain"],
+//   ["Norway", "Sweden", "Russia"],
+// ];
+
+// for (let arr = 0; arr <= listOfNeighbours.length - 1; arr++) {
+//   for (let rep = 0; rep <= listOfNeighbours[arr].length - 1; rep++) {
+//     console.log(`Neighbour: ${listOfNeighbours[arr][rep]}`);
+//   }
+// }
+
+// const percentages3 = [];
+
+// let i = 0;
+
+// while (i < populations.length) {
+//   percentages3.push(percentageOfWorld(populations[i]));
+//   i++;
+// }
+
+// console.log(percentages3);
